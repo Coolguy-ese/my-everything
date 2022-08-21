@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.box1{
+    width:100%;
+    height: 70px;
+    position: absolute;
+    background-color:rgb(65, 56, 56);
+}
+.text1{
+    font-family:agency FB;
+    margin-top: 15px;
+    margin-left: 30px;
+    letter-spacing: -2px;
+    font-size: 30px;
+    float:left;
+    color:white;
+}
+.text2{
+    font-family: impact;
+    font-size:30px;
+    float:right;
+    color:white;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.box2{
+    height:450px;
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('mdbZP8.jpg');
+}
+.input1{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: arial narrow;
+}
+button{
+    width: 250px;
+    height: 45px;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    font-family: arial black;
+    background-color:rgb(93, 86, 86);
+}
+button:hover{
+    background: white;
+    color: rgb(93, 86, 86);
+    border: 2px solid rgb(93, 86, 86);
+}
+
+select{
+    border: 2px solid grey;
+    width: 254px;
+    height: 38px;
+    border-radius: 5px;
+}
+.box3{
+    height: 450px;
+    width:300px;
+    text-align:center;
+    background-color: rgb(255, 255, 0);
+    float:right;
+    margin-right: 30px;
+}
+.gh{
+    color:white;
+    font-family:  Agency FB ;
+    font-size: 80px;
+    font-weight:bold;
+    margin-left: 50px;
+    float:left;
+}
+ul{ 
+    font-weight:bold;
+    font-family: arial;
+    margin-top:27%;
+    color: white;
+    margin-left: 30px;
+}
